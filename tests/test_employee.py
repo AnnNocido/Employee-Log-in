@@ -12,6 +12,6 @@ def test_add_employee(setup):
     login.login(USERNAME, PASSWORD)
 
     pim.go_to_pim()
-    emp_id = pim.add_employee("Wendell", "Nocido")
+    emp_id = pim.add_employee("Wendell Ann", "Nocido")
 
     assert emp_id is not None
